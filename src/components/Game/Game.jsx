@@ -11,3 +11,5 @@ class Game extends Component {
         )
     }
 }
+
+export default Game;
