@@ -1,6 +1,6 @@
 import { Api, JsonRpc } from 'eosjs';
 //DON'T DO THIS IN PRODUCTION EVER
-import JsSignatureProvider from 'eosjs/dist/eosjs-jssig';
+import {JsSignatureProvider} from 'eosjs/dist/eosjs-jssig'; // S: needed to add curly braces to work
 
 //Main action call to the blockchain
 async function takeAction(action, dataValue) {

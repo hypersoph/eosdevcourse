@@ -5,7 +5,7 @@ const initialState = {
     win_count: 0,
     lost_count: 0,
     game: null,
-}
+};
 
 // Reducer handles our actions to update our Redux store
 export default function (state = initialState, action) {
